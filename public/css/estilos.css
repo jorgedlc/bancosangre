@@ -1,0 +1,38 @@
+.calendar-container{
+    background: white;
+    padding: 5%;
+}
+
+.asignacion-cupos-titulo,.asignacion-citas-titulo{
+
+    text-align:center;
+    font-size:1.6em;
+}
+
+#form-citas{
+    margin:0 auto;    
+    width: 100%;
+    padding: 15px 20%;
+}
+
+.delete-donante{
+    cursor: pointer;
+    transition-property:color,transform;
+    transition-duration:1s;
+    text-align: center;
+}
+.delete-donante:hover{
+    color:red;
+    transform:scale(1.1) rotate(360deg);
+}
+
+.fc-sun {
+    background-color:#f2f2f2 !important;
+}
+.fc-day-header{
+    background-color: #fff !important;
+}
+
+.horas-llenas{
+    background-color: rgba(245,87,54,0.1) !important;
+}

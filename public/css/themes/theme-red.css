@@ -1,0 +1,48 @@
+﻿.theme-red .navbar {
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#240b36, #e7072c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #ec0b30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.theme-red .navbar-brand {
+  color: #fff; }
+  .theme-red .navbar-brand:hover {
+    color: #fff; }
+  .theme-red .navbar-brand:active {
+    color: #fff; }
+  .theme-red .navbar-brand:focus {
+    color: #fff; }
+
+.theme-red .nav > li > a {
+  color: #fff; }
+  .theme-red .nav > li > a:hover {
+    background-color: transparent; }
+  .theme-red .nav > li > a:focus {
+    background-color: transparent; }
+
+.theme-red .nav .open > a {
+  background-color: transparent; }
+  .theme-red .nav .open > a:hover {
+    background-color: transparent; }
+  .theme-red .nav .open > a:focus {
+    background-color: transparent; }
+
+.theme-red .bars {
+  color: #fff; }
+
+.theme-red .sidebar .menu .list li.active {
+  background-color: transparent; }
+  .theme-red .sidebar .menu .list li.active > :first-child i, .theme-red .sidebar .menu .list li.active > :first-child span {
+    color: #F44336; }
+
+.theme-red .sidebar .menu .list .toggled {
+  background-color: transparent; }
+
+.theme-red .sidebar .menu .list .ml-menu {
+  background-color: transparent; }
+
+.theme-red .sidebar .legal {
+  background-color: #fff; }
+  .theme-red .sidebar .legal .copyright a {
+    color: #F44336 !important; }
+
